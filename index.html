@@ -25,7 +25,7 @@
     let cities = [];
 
     // Load your cities.json (make sure it's served by your web server in the same folder)
-    fetch('https://s3.tripgeo.com/cities.json')
+    fetch('cities.json')
       .then(res => res.json())
       .then(data => {
         cities = data;
